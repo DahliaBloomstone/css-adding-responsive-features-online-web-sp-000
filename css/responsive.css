@@ -27,7 +27,8 @@
     column-count: 2;
    }
  }
- @media only screen and (max-width: 750px) {
+
+@media only screen and (max-width: 750px) {
    #navbar nav a {
    font-size: 0.9em; }
  }
@@ -35,5 +36,10 @@
  -moz-column-count: 1;
 -webkit-column-count: 1;
 column-count: 1;
+  }
+  .col-1, .col-2, .col-3 {
+    width: 100%
+    margin-left: 0;
+    float: none;
   }
 }
